@@ -1,0 +1,86 @@
+body {
+    background-color:rgb(51, 64, 96);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5em;
+    color: rgb(219 217 217);
+    text-shadow: 2px 0px 0px red;
+    text-align: center;
+}
+
+/*main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#gallery button {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 2em;
+    width: 150px;
+    height: 150px;
+    border: 10px grey solid;
+    border-radius: 15%;
+    background-color: #fff;
+    cursor: pointer;
+    background: no-repeat center / cover contain;
+}
+
+
+/* btn playme*/
+#playMe{
+    color:#fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 5em;
+    padding: 15px;
+    border-radius: 37px;
+    background-image: linear-gradient(50deg,hsl(300deg 100% 10%) 0%,hsl(350deg 65% 30%) 5%,hsl(300deg 94% 29%) 50%,hsl(251deg 100% 50%) 95%,hsl(261deg 100% 50%) 100%);
+}
+
+#playMe:hover{
+    filter: brightness(1.75);
+    cursor: pointer;
+}
+
+.letter p {
+    font-size: 6em;
+    color: red;
+    text-shadow: 3px 0px 0px rgb(219 217 217);
+    margin: 0;
+}
+
+
+/*footer*/
+footer {
+    width: 100%;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+footer span {
+    color: red;
+}
